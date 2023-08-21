@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "custom",
+  "id": "hellclient",
   "version": "${version}",
-  "name": "custom",
+  "name": "hellclient",
   "description": "An addon template for the Meteor addons.",
   "authors": [
     "redboy2315"
