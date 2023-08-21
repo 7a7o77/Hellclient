@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "custom",
   "version": "${version}",
-  "name": "Addon Template",
+  "name": "custom",
   "description": "An addon template for the Meteor addons.",
   "authors": [
-    "seasnail"
+    "redboy2315"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/7a7o77/Hellclient/"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
