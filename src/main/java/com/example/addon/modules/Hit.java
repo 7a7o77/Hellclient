@@ -12,7 +12,7 @@ import meteordevelopment.orbit.EventHandler;
 public class Hit extends Module {
     Setting<Boolean> OnlyCrits;
     public Hit() {
-        super(Addon.CATEGORY, "hit", "An Custom module in a custom category.");
+        super(Addon.CATEGORY, "hit", "A more legit killaura simply hold right click and aim at your target.");
         SettingGroup GlSettings = settings.getDefaultGroup();
         OnlyCrits = GlSettings.add(new BoolSetting.Builder()
             .name("OnlyCrits")
