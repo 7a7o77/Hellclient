@@ -8,7 +8,7 @@ import static com.mojang.brigadier.Command.SINGLE_SUCCESS;
 
 public class CommandExample extends Command {
     public CommandExample() {
-        super("example", "Sends a message.");
+        super("Custom", "Sends a message.");
     }
 
     @Override
