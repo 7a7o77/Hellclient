@@ -1,8 +1,10 @@
-# Meteor Addon Template
+# Please know that i am new to java
 
-A template to allow easy usage of the Meteor Addon API.
+this is cloned from Meteor Addon Template
 
 ### How to use:  
-- Clone this project
-- Use this template to create new modules/commands
-- Run the mod with Meteor.
+- Have Meteor,Fabric Api and hellclient in the minecraft/mods folder
+- Have fun
+### Features:
+### Modules:
+- Hit: Hits the entity infront if you if you are going down(criting) and you are right clicking
