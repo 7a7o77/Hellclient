@@ -1,6 +1,6 @@
-package com.example.addon.modules;
+package com.hell.client.modules;
 
-import com.example.addon.Addon;
+import com.hell.client.Addon;
 import meteordevelopment.meteorclient.events.entity.player.InteractEntityEvent;
 import meteordevelopment.meteorclient.settings.BoolSetting;
 import meteordevelopment.meteorclient.settings.Setting;
@@ -30,7 +30,7 @@ public class Hit extends Module {
             e.setCancelled(true);
             if (mc.player == null)return;
             if ((int) (mc.player.getAttackCooldownProgress(0.0F) * 17.0F) < 16) return;
-            if (OnlyCrits.get()) if (mc.player.getVelocity().y > 0) return;
+            if (OnlyCrits.get()&&mc.player.getVelocity().y > 0.01) return;
             assert mc.interactionManager != null;
             mc.interactionManager.attackEntity(mc.player, e.entity);
         }
